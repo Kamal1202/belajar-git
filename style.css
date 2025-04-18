@@ -1,0 +1,194 @@
+/* style.css */
+
+/* Umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Login */
+.login-form {
+    background-color: #fff;
+    padding: 40px;
+    max-width: 400px;
+    margin: 80px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 94.5%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Dashboard */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Pastikan form input berjajar rapi */
+.form-container input {
+    width: 200px;
+}
+
+/* Tambahkan spacing antar elemen form */
+.form-container form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Responsive table container */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.table, .table th, .table td {
+    border: 1px solid #ddd;
+}
+.table th, .table td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Form Container */
+.form-container {
+    margin: 20px 0;
+}
+.form-container input,
+.form-container button {
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Popup Form */
+.popup-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.popup-form.active {
+    display: block;
+}
+
+/* Input Text Container */
+.inputText {
+    margin-bottom: 10px;
+    width: 92%;
+}
+
+/* Edit Button Container */
+.buttonEdit {
+    text-align: center;
+}
+
+/* Custom Buttons */
+.btn {
+    padding: 8px 16px;
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    min-width: 100px;
+    text-align: center;
+}
+
+/* Warna tombol spesifik */
+.btn-blue {
+    background-color: #007bff;
+}
+.btn-blue:hover {
+    background-color: #0056b3;
+}
+
+.btn-red {
+    background-color: #dc3545;
+}
+.btn-red:hover {
+    background-color: #c82333;
+}
+
+.btn-yellow {
+    background-color: #ffc107;
+    color: black;
+}
+.btn-yellow:hover {
+    background-color: #e0a800;
+    color: black;
+}
+
+.btn-grey {
+    background-color: #6c757d;
+}
+.btn-grey:hover {
+    background-color: #5a6268;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Form Input in Edit Popup */
+.edit-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
